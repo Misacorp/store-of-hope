@@ -1,0 +1,117 @@
+html {
+	background-color: #EFEFF4;
+	color: #3C3C3B;
+	font-size: 14pt;
+}
+
+body {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 3rem;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 1em auto 1em auto;
+}
+
+h2 {
+	margin: 0 auto 0.5em auto;
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Crimson Text", serif;
+	font-size: 1.6rem;
+	font-style: italic;
+}
+
+footer {
+	margin: 2rem auto;
+	text-align: center;
+}
+
+footer p {
+	margin-bottom: 1rem;
+}
+
+footer a {
+	padding: 0;
+}
+
+.main-logo {
+	position: absolute;
+	display: block;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.main-content {
+	font-family: serif;
+	color: white;
+	background-color: #4E5454;
+	margin: 0 auto;
+	padding: 9rem 50px 4rem 50px;
+	text-align: center;
+}
+
+.call-to-action {
+	display: block;
+	margin-top: 8em;
+}
+
+.call-to-action p {
+	margin-bottom: 1rem;
+}
+
+a, a:hover, a:visited, a:active {
+	color: inherit;
+}
+
+.call-to-action a.btn, .call-to-action a.btn:hover, .call-to-action a.btn:visited, .call-to-action a.btn:active {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.call-to-action a.btn:hover {
+	background-color: #F34F8A;
+}
+
+.btn {
+	display: inline-block;
+	padding: 20px 50px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	margin: 0 10px;
+	font-size: 2rem;
+	cursor: pointer;
+	transition: ease 0.5s;
+}
+
+.btn:hover {
+	box-shadow: 3px 7px 8px rgba(0,0,0,0.3);
+}
+
+.btn.share-container {
+	line-height: 1em;
+	padding: 15px 60px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+}
+
+.btn.share-container:hover {
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.15);
+}
+
+.share-container img {
+	height: 1em 	;
+	width: auto;
+}
+
+.pink {	background-color: #DC3D78; }
+.white { background-color: #FFFFFF; }
