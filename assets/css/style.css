@@ -11,9 +11,8 @@ html {
 }
 
 body {
-	position: relative;
-	margin: 0 auto;
-	width: 80%;
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
@@ -27,12 +26,12 @@ h1 {
 
 h2 {
 	font-family: 'Butler Regular';
-	font-weight: 100;
-	letter-spacing: 30px;
-	text-indent: 15px;
-	margin: 0 auto 0.5em auto;
-	font-size: 4.8rem;
-	text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 40px;
+    padding-left: 20px;
+    margin: 0 auto 0.5em auto;
+    font-size: 5.4rem;
+    text-transform: uppercase;
 }
 
 p {
@@ -42,15 +41,62 @@ p {
 }
 
 footer {
+	width: 100%;
+	background-color: #2D2D2D;
+	padding: 2rem 0 0.5rem 0;
+	color: #EFEFF4;
+}
+
+footer h1{
+	font-size: 2rem;
+	margin: 0 auto 0.5rem auto;
+	text-align: left;
+	font-weight: 300;
+}
+
+footer p {
+	font-family: 'Museo Sans', 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-style: initial;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+footer a {
+	font-style: italic;
+	color: #A8A8A8;
+	text-decoration: none;
+	transition: color ease 0.3s;
+}
+
+footer a:hover, footer a:visited, footer a:active {
+	color: #DDD;
+}
+
+footer .copyright {
+	font-size: 0.8rem;
+	display: block;
+	clear: both;
+	text-align: center;
+	color: #777;
+}
+
+.page {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.social {
 	margin: 2rem auto;
 	text-align: center;
 }
 
-footer p {
+.social p {
 	margin-bottom: 1rem;
 }
 
-footer a {
+.social a {
 	padding: 0;
 }
 
@@ -59,7 +105,8 @@ footer a {
 	left: 50%;
 	transform: translateX(-50%);
     display: block;
-    top: 2.45rem;
+    top: 3.1rem;
+    width: 500px;
 }
 
 .main-logo {
@@ -70,19 +117,22 @@ footer a {
 }
 
 .main-content {
-	/*text-shadow: 2px 2px 5px rgba(0,0,0,0.3);*/
 	font-family: serif;
-	background-image: url('../img/soh-indiegogo.jpg');
-	background-size: cover;
-	color: white;
-	background-color: #4E5454;
-	margin: 0 auto;
-	padding: 10rem 50px 4rem 50px;
-	text-align: center;
+    background-image: url(../img/soh-indiegogo.jpg);
+    background-size: cover;
+	background-position: center center;
+    color: white;
+    background-color: #4E5454;
+    margin: 0 auto;
+    padding: 12.5rem 50px 4rem 50px;
+    text-align: center;
+    max-width: 1440px;
 }
 
 .main-content p {
 	padding: 0 10%;
+	max-width: 650px;
+	margin: 0 auto;
 }
 
 .call-to-action {
@@ -113,28 +163,32 @@ a, a:hover, a:visited, a:active {
 .btn {
 	display: inline-block;
 	padding: 15px 50px;
-	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
-	margin: 0 10px;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
 	font-size: 1.8rem;
 	cursor: pointer;
-	transition: 0.5s;
+	transition: ease 0.5s;
+	-webkit-backface-visibility: hidden;
 	text-shadow: none;
 }
 
 .btn:hover {
-	box-shadow: 3px 7px 8px rgba(0,0,0,0.3);
+	box-shadow: 0px 7px 8px rgba(0,0,0,0.3);
 }
 
 .btn.share-container {
 	position: relative;
+	margin: 0 10px;
 	line-height: 1em;
 	text-indent: 20px;
 	padding: 15px 60px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	text-decoration: none;
+	margin-bottom: 1rem;
 }
 
 .btn.share-container:hover {
-	box-shadow: 2px 2px 3px rgba(0,0,0,0.15);
+	background-color: #DDD;
+	/*box-shadow: 2px 2px 3px rgba(0,0,0,0.3);*/
 }
 
 .share-container img {
@@ -146,10 +200,57 @@ a, a:hover, a:visited, a:active {
     left: 10%;
 }
 
+#mc_embed_signup {
+	text-align: center;
+}
+
+#mc_embed_signup label {
+	display: block;
+	margin: 0 auto;
+	font-family: 'Adobe Garamond', serif;
+	font-style: italic;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+#mc_embed_signup .email {
+	display: inline-block;
+	color: #2D2D2D;
+	margin: 0 auto;
+	width: 50%;
+	min-width: 300px;
+	max-width: 400px;
+	font-size: 1rem;
+	padding: 10px 10px 10px 20px;
+	border: 0;
+}
+
+#mc_embed_signup .clear {
+	display: inline-block;
+}
+
+#mc_embed_signup .clear input {
+    margin-left: 20px;
+    font-size: 1rem;
+    background-color: #EF4C87;
+    padding: 20px;
+    /*border: solid 1px #AF0C48;*/
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #222;
+}
+
 .pink {	background-color: #DC3D78; }
 .white { background-color: #FFFFFF; }
 
-@media (max-width: 992px) {
+@media (max-width: 1627px) {
+	h2 {
+		/*font-size: 2.8rem;*/
+	}
+}
+
+@media (max-width: 1182px) {
 	h2 {
 		font-size: 2.8rem;
 	}
@@ -162,5 +263,15 @@ a, a:hover, a:visited, a:active {
 
 	.call-to-action .btn {
 		font-size: 1em;
+	}
+}
+
+@media (max-width: 776px) {
+	.btn.share-container {
+		margin: 1rem auto;
+	}
+
+	footer h1 {
+		text-align: center;
 	}
 }
