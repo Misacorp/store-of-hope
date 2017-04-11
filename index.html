@@ -3,8 +3,20 @@
 	<meta charset="UTF-8">
 	<title>Store of Hope</title>
 	
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:600,600i,700,700i|Roboto:100,300,400" rel="stylesheet">
+
+	<!-- TykeKit fonts -->
+	<script>
+	  (function(d) {
+	    var config = {
+	      kitId: 'zcj4sxi',
+	      scriptTimeout: 3000,
+	      async: true
+	    },
+	    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
 
 </head>
 <body>
@@ -15,32 +27,22 @@
 
 	<article class="main-content">
 		<h2>Coming soon</h2>
-		<p>We are building a new international webstore for ethical and empowering design!</p>
+		<p class=".tk-adobe-garamond-pro">We are building a new international webstore<br> for ethical and empowering design!</p>
 
 		<div class="call-to-action">
-			<p>Go see our</p>
+			<p class=".tk-adobe-garamond-pro">Go see our</p>
 			<a href="//indiegogo.com" class="btn pink">
-				Dream on Indiegogo!
+				<span class=".tk-museo-sans">Dream on Indiegogo!</span>
 			</a>
 		</div>
 	</article>
 
 	<footer>
-		<p>Stay tuned</p>
+		<p class=".tk-adobe-garamond-pro">Stay tuned</p>
 
-		<a href="//facebook.com/storeofhope">
-			<div class="btn share-container white">
-				<img src="facebook-icon" alt="Facebook icon">
-				Facebook
-			</div>
-		</a>
+		<a href="//facebook.com/storeofhope"><div class="btn share-container white"><img src="assets/img/facebook-icon.png" alt="Facebook icon"><span class=".tk-museo-sans">Facebook</span></div></a>
 
-		<a href="//instagram.com/user/storeofhope">
-			<div class="btn share-container white">
-				<img src="instagram-icon" alt="Instagram icon">
-				Instagram
-			</div>
-		</a>
+		<a href="//instagram.com/user/storeofhope"><div class="btn share-container white"><img src="assets/img/instagram-icon.png" alt="Instagram icon"><span class=".tk-museo-sans">Instagram</span></div></a>
 	</footer>
 	
 </body>
