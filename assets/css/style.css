@@ -200,11 +200,11 @@ a, a:hover, a:visited, a:active {
     left: 10%;
 }
 
-#mc_embed_signup {
+footer #mc_embed_signup {
 	text-align: center;
 }
 
-#mc_embed_signup label {
+footer #mc_embed_signup label {
 	display: block;
 	margin: 0 auto;
 	font-family: 'Adobe Garamond', serif;
@@ -213,7 +213,7 @@ a, a:hover, a:visited, a:active {
 	margin-bottom: 1rem;
 }
 
-#mc_embed_signup .email {
+footer #mc_embed_signup .email {
 	display: inline-block;
 	color: #2D2D2D;
 	margin: 0 auto;
@@ -225,11 +225,11 @@ a, a:hover, a:visited, a:active {
 	border: 0;
 }
 
-#mc_embed_signup .clear {
+footer #mc_embed_signup .clear {
 	display: inline-block;
 }
 
-#mc_embed_signup .clear input {
+footer #mc_embed_signup .clear input {
     margin-left: 20px;
     font-size: 1rem;
     background-color: #EF4C87;
