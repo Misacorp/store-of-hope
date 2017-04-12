@@ -4,15 +4,19 @@
 }
 
 html {
-	background-color: #EFEFF4;
 	color: #3C3C3B;
 	font-size: 10pt;
 	text-shadow: 0 0 0.1px rgba(0,0,0,0.5);
 }
 
 body {
+	background-color: #2D2D2D;
 	padding: 0;
 	margin: 0;
+}
+
+main {
+	padding-bottom: 1em;
 }
 
 h1 {
@@ -242,6 +246,8 @@ footer #mc_embed_signup .clear input {
     box-shadow: 0 2px 4px #222;
 }
 
+
+.light { background-color: #EFEFF4;}
 .pink {	background-color: #DC3D78; }
 .white { background-color: #FFFFFF; }
 
@@ -300,6 +306,10 @@ footer #mc_embed_signup .clear input {
 	}
 }
 
-@media (max-width: 776px) {
+@media (max-width: 460px) {
+	.logo {
+		width: 90%;
+		top: 9vw;
+	}
 
 }
