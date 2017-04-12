@@ -236,6 +236,7 @@ footer #mc_embed_signup .clear {
 
 footer #mc_embed_signup .clear input {
     margin-left: 1.2em;
+    margin-top: 1rem;
     font-size: 1em;
     background-color: #EF4C87;
     padding: 1.2em;
@@ -311,5 +312,13 @@ footer #mc_embed_signup .clear input {
 		width: 90%;
 		top: 9vw;
 	}
+
+	footer #mc_embed_signup .email {
+		width: 90%;
+	}
+
+	footer #mc_embed_signup .clear input {
+	    margin-left: 0;
+	}	
 
 }
